@@ -1,0 +1,18 @@
+diff --git a/package.json b/package.json
+index 97b52cb20a49107b34833cd89e9db5c3775936bc..d371bf82dc7e66bac3b67be22f641f36bed254d9 100644
+--- a/package.json
++++ b/package.json
+@@ -2,8 +2,11 @@
+   "name": "typia",
+   "version": "3.5.0",
+   "description": "Superfast runtime validators with only one line",
+-  "main": "lib/index.js",
+-  "typings": "lib/index.d.ts",
++  "typings": "./lib/index.d.ts",
++  "exports": {
++    ".": "./lib/index.js",
++    "./lib/transform": "./lib/transform.js"
++  },
+   "bin": {
+     "typia": "./lib/executable/typia.js"
+   },

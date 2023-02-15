@@ -58,7 +58,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typia@npm:^3.5.0":
+"typia@npm:3.5.0":
   version: 3.5.0
   resolution: "typia@npm:3.5.0"
   dependencies:
@@ -69,5 +69,19 @@ __metadata:
   bin:
     typia: lib/executable/typia.js
   checksum: 32ac4acffade52d620cff4e871d0ce842afb5a3a9897273123b70dd104e3cc873089c25fb8600a19c02eeee6d69723ccf3d5d768e6efa77f67f7179da7e7eaa5
+  languageName: node
+  linkType: hard
+
+"typia@patch:typia@npm%3A3.5.0#./.yarn/patches/typia-npm-3.5.0-3320b94790.patch::locator=bug-repro-typia-esm-resolve%40workspace%3A.":
+  version: 3.5.0
+  resolution: "typia@patch:typia@npm%3A3.5.0#./.yarn/patches/typia-npm-3.5.0-3320b94790.patch::version=3.5.0&hash=0d5c44&locator=bug-repro-typia-esm-resolve%40workspace%3A."
+  dependencies:
+    randexp: ^0.5.3
+  peerDependencies:
+    ttypescript: ">= 1.5.15"
+    typescript: ">= 4.5.2"
+  bin:
+    typia: lib/executable/typia.js
+  checksum: 5adb40775deeff88573bdc801bd40c769c3f6ab1389606bc0d2e68c09a5305b62c94e41a55dcaaf08c652a33ac7cf8d6237acb10c8ed80f27711a07de70509b2
   languageName: node
   linkType: hard

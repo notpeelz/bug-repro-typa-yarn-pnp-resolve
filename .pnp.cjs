@@ -29,7 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
-            ["typia", "virtual:0b452df3163f6fd40058e2b7ed927873566ec7fdc896fce954b4f820706b78bc1e1418770b850fc26dd72a610ffe056bd0e8a2e6dad4c05877473ede55fc641b#npm:3.5.0"]\
+            ["typia", "virtual:0b452df3163f6fd40058e2b7ed927873566ec7fdc896fce954b4f820706b78bc1e1418770b850fc26dd72a610ffe056bd0e8a2e6dad4c05877473ede55fc641b#patch:typia@npm%3A3.5.0#./.yarn/patches/typia-npm-3.5.0-3320b94790.patch::version=3.5.0&hash=0d5c44&locator=bug-repro-typia-esm-resolve%40workspace%3A."]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -40,7 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["bug-repro-typia-esm-resolve", "workspace:."],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
-            ["typia", "virtual:0b452df3163f6fd40058e2b7ed927873566ec7fdc896fce954b4f820706b78bc1e1418770b850fc26dd72a610ffe056bd0e8a2e6dad4c05877473ede55fc641b#npm:3.5.0"]\
+            ["typia", "virtual:0b452df3163f6fd40058e2b7ed927873566ec7fdc896fce954b4f820706b78bc1e1418770b850fc26dd72a610ffe056bd0e8a2e6dad4c05877473ede55fc641b#patch:typia@npm%3A3.5.0#./.yarn/patches/typia-npm-3.5.0-3320b94790.patch::version=3.5.0&hash=0d5c44&locator=bug-repro-typia-esm-resolve%40workspace%3A."]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -84,17 +84,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typia", [\
-        ["npm:3.5.0", {\
-          "packageLocation": "./.yarn/cache/typia-npm-3.5.0-3320b94790-32ac4acffa.zip/node_modules/typia/",\
+        ["patch:typia@npm%3A3.5.0#./.yarn/patches/typia-npm-3.5.0-3320b94790.patch::version=3.5.0&hash=0d5c44&locator=bug-repro-typia-esm-resolve%40workspace%3A.", {\
+          "packageLocation": "./.yarn/cache/typia-patch-58f74b9183-5adb40775d.zip/node_modules/typia/",\
           "packageDependencies": [\
-            ["typia", "npm:3.5.0"]\
+            ["typia", "patch:typia@npm%3A3.5.0#./.yarn/patches/typia-npm-3.5.0-3320b94790.patch::version=3.5.0&hash=0d5c44&locator=bug-repro-typia-esm-resolve%40workspace%3A."]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:0b452df3163f6fd40058e2b7ed927873566ec7fdc896fce954b4f820706b78bc1e1418770b850fc26dd72a610ffe056bd0e8a2e6dad4c05877473ede55fc641b#npm:3.5.0", {\
-          "packageLocation": "./.yarn/__virtual__/typia-virtual-3d3682d308/0/cache/typia-npm-3.5.0-3320b94790-32ac4acffa.zip/node_modules/typia/",\
+        ["virtual:0b452df3163f6fd40058e2b7ed927873566ec7fdc896fce954b4f820706b78bc1e1418770b850fc26dd72a610ffe056bd0e8a2e6dad4c05877473ede55fc641b#patch:typia@npm%3A3.5.0#./.yarn/patches/typia-npm-3.5.0-3320b94790.patch::version=3.5.0&hash=0d5c44&locator=bug-repro-typia-esm-resolve%40workspace%3A.", {\
+          "packageLocation": "./.yarn/__virtual__/typia-virtual-65af09449f/0/cache/typia-patch-58f74b9183-5adb40775d.zip/node_modules/typia/",\
           "packageDependencies": [\
-            ["typia", "virtual:0b452df3163f6fd40058e2b7ed927873566ec7fdc896fce954b4f820706b78bc1e1418770b850fc26dd72a610ffe056bd0e8a2e6dad4c05877473ede55fc641b#npm:3.5.0"],\
+            ["typia", "virtual:0b452df3163f6fd40058e2b7ed927873566ec7fdc896fce954b4f820706b78bc1e1418770b850fc26dd72a610ffe056bd0e8a2e6dad4c05877473ede55fc641b#patch:typia@npm%3A3.5.0#./.yarn/patches/typia-npm-3.5.0-3320b94790.patch::version=3.5.0&hash=0d5c44&locator=bug-repro-typia-esm-resolve%40workspace%3A."],\
             ["@types/ttypescript", null],\
             ["@types/typescript", null],\
             ["randexp", "npm:0.5.3"],\

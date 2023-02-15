@@ -10,5 +10,8 @@
   "dependencies": {
     "typescript": "^4.9.5",
     "typia": "^3.5.0"
+  },
+  "resolutions": {
+    "typia@^3.5.0": "patch:typia@npm%3A3.5.0#./.yarn/patches/typia-npm-3.5.0-3320b94790.patch"
   }
 }
